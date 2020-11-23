@@ -41,4 +41,22 @@ Source codes for the specific situations
 # Gneration Models
 
 ## 1.  Variational AutoEncoder
+    
+r.f. https://github.com/AntixK/PyTorch-VAE/blob/master/models/vanilla_vae.py
 
+
+conv 1 32
+conv 32 64
+conv 64 256 
+hidden 64
+
+
+B x 1  x 32 x 32
+B x 32 x 16 x 16 
+B x 64 x  8 x  8
+B x 256 x 4 x  4
+B x 2056
+B x 64
+B 
+
+ 
