@@ -3,6 +3,7 @@
 Source codes for the specific situations
 
 ---
+# Classification Models
 
 ## 1. Custom Data Using Numpy
 
@@ -15,10 +16,23 @@ Source codes for the specific situations
 * Visdom Plot with loss
 * Visdom Plot with different lines
 
-## 3. Fully Connected, CNN, RNN models
+## 3. Plot the loss using tensorboard
+
+* Tensorboard Plot with loss
+* Tensorboard graph structure 
+
+## 4. Fully Connected, CNN, RNN models
 
 * Fully Connected
 * Convolution Neural Network
 * Recurrent Neural Network
 
+## 5. Transformer Encoder
+* Transformer Encoder (Multihead Self Attention)
+
+
 ---
+# Gneration Models
+
+## 1.  Variational AutoEncoder
+
