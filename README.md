@@ -27,7 +27,13 @@ Source codes for the specific situations
 * Convolution Neural Network
 * Recurrent Neural Network
 
-## 5. Transformer Encoder
+## 5. RNN, LSTM, GRU
+ * Recurrent Neural Network
+ * Long-Short term memory
+ * Gate Recurrent Unit
+
+
+## 6. Transformer Encoder
 * Transformer Encoder (Multihead Self Attention)
 
 
