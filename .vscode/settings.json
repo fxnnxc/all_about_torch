@@ -1,4 +1,4 @@
 {
     "python.pythonPath": "C:\\Users\\beomj\\anaconda3\\envs\\torch\\python.exe",
-    "jupyter.jupyterServerType": "remote"
+    "jupyter.jupyterServerType": "local"
 }
