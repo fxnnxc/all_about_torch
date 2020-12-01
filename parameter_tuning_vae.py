@@ -12,8 +12,9 @@ class fxnnxc(nn.Module):
     def __init__(self, hidden, beta):
         super(fxnnxc, self).__init__()
         self.in_channel = 1
-        self.latent_dim = 10
+        self.latent_dim = hidden
         self.hidden_dims = [self.in_channel, 32, 64, 256]
+        self.beta = beta
         # build encoder
         modules = []
         #in_channel = self.in_channel
@@ -95,7 +96,7 @@ class fxnnxc(nn.Module):
         input = args[1]
         mu = args[2]
         log_var = args[3]
-        beta = 2
+        beta = self.beta
         kld_weight = 0.005
 
         recons_loss = F.mse_loss(recons, input)
